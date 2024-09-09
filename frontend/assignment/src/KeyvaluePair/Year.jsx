@@ -26,7 +26,7 @@ const Year = () => {
   });
 
   useEffect(() => {
-    fetch("http://localhost:8000/getYear")
+    fetch("https://chart-web-app.onrender.com/getYear")
       .then((response) => response.json())
       .then((ele) => {
         const element = {
