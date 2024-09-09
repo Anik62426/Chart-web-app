@@ -25,7 +25,7 @@ const Likelihood = () => {
       });
       
       useEffect(()=>{
-        fetch("http://localhost:8000/getLikelihood")
+        fetch("https://chart-web-app.onrender.com/getLikelihood")
         .then((response) => response.json())
         .then((ele) => {
           const element = {

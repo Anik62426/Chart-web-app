@@ -26,7 +26,7 @@ const Country = () => {
       });
       
       useEffect(()=>{
-        fetch("http://localhost:8000/getCountry")
+        fetch("https://chart-web-app.onrender.com/getCountry")
         .then((response) => response.json())
         .then((ele) => {
           const element = {

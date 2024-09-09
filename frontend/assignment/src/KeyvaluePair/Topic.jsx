@@ -27,7 +27,7 @@ const Topic  = () => {
       });
       
       useEffect(()=>{
-        fetch("http://localhost:8000/getTopic")
+        fetch("https://chart-web-app.onrender.com/getTopic")
         .then((response) => response.json())
         .then((ele) => {
           const element = {

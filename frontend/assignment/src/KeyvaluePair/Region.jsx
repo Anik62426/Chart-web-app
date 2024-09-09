@@ -26,7 +26,7 @@ const Region  = () => {
       });
       
       useEffect(()=>{
-        fetch("http://localhost:8000/getRegion")
+        fetch("https://chart-web-app.onrender.com/getRegion")
         .then((response) => response.json())
         .then((ele) => {
           const element = {  

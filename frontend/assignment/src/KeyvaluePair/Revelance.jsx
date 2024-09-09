@@ -24,7 +24,7 @@ const Revelance = () => {
       });
       
       useEffect(()=>{
-        fetch("http://localhost:8000/getRelevance")
+        fetch("https://chart-web-app.onrender.com/getRelevance")
         .then((response) => response.json())
         .then((ele) => {
           const element = {

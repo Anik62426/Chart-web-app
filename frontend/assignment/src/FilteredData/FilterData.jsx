@@ -51,7 +51,7 @@ export default function DataTable() {
  const[useData,setUseData] = useState([]);
  
  useEffect(()=>{
-    fetch("http://localhost:8000/getAlldata")
+    fetch("https://chart-web-app.onrender.com/getAlldata")
     .then((response) => response.json())
     .then((data)=>setUseData(data))
  },[])

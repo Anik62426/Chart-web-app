@@ -24,7 +24,7 @@ const Intensity = () => {
       });
       
       useEffect(()=>{
-        fetch("http://localhost:8000/getdata")
+        fetch("https://chart-web-app.onrender.com/getdata")
         .then((response) => response.json())
         .then((ele) => {
           const element = {
